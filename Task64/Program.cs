@@ -16,7 +16,9 @@ namespace Task64
 
         static void Main(string[] args)
         {
-            NaturalNumbers(8);
+            Console.Write("Введите n: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            NaturalNumbers(n);
             Console.Read();
         }
     }
